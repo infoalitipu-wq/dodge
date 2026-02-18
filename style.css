@@ -1,0 +1,167 @@
+body {
+  background-image: url(pexels-cesarperez209-733745.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-size: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(248, 177, 90);
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  padding-top: 100px;
+
+}
+
+h2 {
+  text-align: center;
+  color: rgb(255, 140, 0);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+p {
+  font-size: 40px;
+  color: rgb(255, 102, 0);
+  text-align: left;
+  margin-left: 80px;
+}
+
+.box1 {
+  display: flex;
+  margin-top: 20px;
+}
+
+.box2 {
+  padding-top: 10px;
+}
+
+.box2 img:hover {
+  transform: scale(1.1);
+}
+
+.box3 {
+  margin-top: 50px;
+  display: flex;
+  margin-left: 200px;
+}
+
+.box3 img:hover {
+  transform: scale(1.1);
+}
+
+.box4 {
+  margin-top: 30px;
+  display: flex;
+  margin-left: 200px;
+}
+
+.box4 img:hover {
+  transform: scale(1.1);
+}
+
+.box5 {
+  margin-top: 200px;
+  margin-left: 50px;
+  display: flex;
+}
+
+.box6 {
+  margin-top: 100px;
+}
+
+.box6 img:hover {
+  transform: scale(1.1);
+}
+
+.box7 {
+  margin-top: 75px;
+}
+
+.box7 img:hover {
+  transform: scale(1.1);
+}
+
+.box8 {
+  margin-top: 75px;
+}
+
+.box8 img:hover {
+  transform: scale(1.1);
+}
+
+.box11 {
+  text-align: center;
+  font-size: 100px;
+  font-style: oblique;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: underline;
+  color: #000;
+}
+
+.car {
+  text-align: center;
+  color: rgb(255, 0, 0);
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.engine {
+  text-align: center;
+  color: rgb(255, 217, 0);
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding: 12px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+/* Logo */
+.logo img {
+  height: 45px;
+  width: auto;
+}
+
+/* Nav links */
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 25px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #e60000;
+  /* Dodge red */
+}
